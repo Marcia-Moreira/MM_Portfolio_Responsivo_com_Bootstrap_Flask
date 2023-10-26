@@ -1,0 +1,61 @@
+Link dos Videos Aula:
+
+https://youtu.be/pzsBEuiZ2I4?si=AAg-4Ycsbwsof_HJ
+
+
+https://youtu.be/gqpugm8XuBU?si=4x16JYZ41aXbvPCn
+
+
+-------------------------------------------
+Estrutura MVC -> BackEnd Comandando a model (onde guarda o dados), a view (html e css e javaScript) e o Control (que é o backEnd em py)
+
+Arquitetura do Flask
+
+Pasta com Nome Projeto ->
+
+Pasta - static -> Arquivo - style.css e Arquivo - script.javaScript e Pasta - img
+
+Pasta - templates -> Arquivo - index.html
+
+Arquivo - app.py
+
+---------------------------------------
+
+Instalar o Flask no Terminal do Py:
+
+no terminal -> pip install flask (Vai instalar a biblioteca necessária)
+
+
+--------------------------------------
+
+Usar o BootStrap (FrameWork - Conjunto de códigos Prontos)
+
+https://getbootstrap.com/
+
+Estilos Pré-Prontos 
+
+Ideal que baixemos o BootStrap no nosso projeto pois temos que fazer o Deploy do Site (Pôr no Ar) para que não tenhamos nenhuma inconsistências se houver atualizações do próprio site!
+
+-> Get Started -> Download -> CSS e JS compilados 
+Baixe na sua Máquina, retire os arquivos (css e js) dentro do zip e cole dentro de uma pasta nova BootStrap dentro da pasta static.
+
+Agora sob a tag html do caminho do arquivo .css que vamos escrever, crie outra tag para o link css do BootStrap:
+
+--------------------------------------
+
+Podemos baixar os ìcones do próprio bootstrap!!
+
+Utilizar CDN link para que seja atualizado pelo site. colocar link no html.
+
+pesquise na página os icons e copie a tag i e cole no html.
+--------------------------------------
+
+FONTES do GOOGLE FONTES
+
+ubuntu -> Todas as fontes -> Copia o que está dentro do link @import
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!-- Abaixo verificar do que se trata: Campatibilidade de Navegador??? -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- Imagem no Topo da Aba da Página -->
+    <link rel="icon" class="logo-title" type="image/png" href="../static/img/logo.png">
+    <!-- Link abaixo habilita usar os ícones do bootstrap -->
+    <!-- @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"); -->
+    <!-- Link Correto é o https... do @ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Titulo da Aba da Página -->
+    <title>Marcia Moreira</title>
+</head>
+<body>
+    <!-- Responsividade Menu Hamburger -->
+    <!-- Pega Hamburgue no Icons BootsTrap -->
+    <i class="bi bi-list menu-mobile"></i>
+
+    <!-- Menu Lateral -> Tag Responsiva: ASIDE -->
+    <aside id="header">
+        <section class="profile">
+            <img src="../static/img/Marcia_Moreira.png" alt="Foto da Marcia Moreira">
+            <h1>Marcia Moreira</h1>
+            <!-- BootsTrap-> mt-4 text-center -->
+            <div class="social-links mt-4 text-center">
+                <!-- <a href="">GitHub</a> -->
+                <!-- Para abrir o link em nova página: target="_blank" -->
+                <a target="_blank" href="https://github.com/Marcia-Moreira">
+                    <i class="bi bi-github"></i>
+                </a>
+                <!-- <a href="">LinkedIn</a> -->
+                <a target="_blank" href="https://www.linkedin.com/in/marciamoreiramm">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <!-- <a href="">Instagram</a> -->
+                <a target="_blank" href="https://www.instagram.com/marcia_moreira_dev/">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <!-- <a href="">WhatsApp</a> -->
+                <a target="_blank" href="https://wa.me/5511977219430">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
+        </section>
+        <!-- Section Nav Bar -> Vamos usar uma padrão do BootsTrap -->
+        <nav id="navbar" class="nav-menu">
+            <!-- bootstrap/Docs/Componentes/Navs & Tabs -->
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-gear"></i>Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <!-- ERRO no Link da Página sobre.html -->
+                    <a class="nav-link" target="_blank" href="sobre.html"><i class="bi bi-person-vcard"></i>Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-list-check"></i>Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-file-earmark-code"></i>Currículo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-collection-play"></i>Portifólio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-envelope-at"></i>Contato</a>
+                </li>           
+              </ul>
+        </nav>
+    </aside>
+
+    <main id="main">
+        <!-- row-> será uma linha, tirar a margem e o padding, logo 100% presa nas laterais -->
+        <section id="inicio" class="row m-0 p-0">
+            <!-- Colunas na row -->
+            <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
+                <h2 class="text-rgb(19, 142, 135) text-shadow">Marcia Moreira</h2>
+                <span id="sbtitle" class="text-rgb(19, 142, 135) text-shadow"> Desenvolvedora Web </span>
+                <span id="sbtitle" class="text-rgb(19, 142, 135) text-shadow"> - Front & Back End - </span>
+
+
+            </div>
+
+            <div class=".col-md-7 d-flex justify-content-end align-items-end">
+                <div id="arraste" class="d-flex align-items-center">
+                    <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
+                    <a href="">Arraste para saber mais</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- <h1>Hei! Vem me Conhecer...</h1> -->
+    <div class="skill">
+
+        <h2>Projetos Com: </h2>
+
+        <i class="bi bi-filetype-js"></i>
+        <p>JavaScript</p>
+
+        <i class="bi bi-filetype-py"></i>
+        <p>Python</p>
+
+        <i class="bi bi-filetype-java"></i>
+        <p>Java</p>
+
+        <p>Não achei <i class="icon-elixir"></i></p>
+        <p>C#</p>
+
+        <i class="bi bi-filetype-html"></i>
+        <p>HTML</p>
+
+        <i class="bi bi-filetype-css"></i>
+        <p>CSS</p>
+
+    </div>
+
+
+    <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/script.js"></script>
+</body>
+</html>
