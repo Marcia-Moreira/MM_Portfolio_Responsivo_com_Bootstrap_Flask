@@ -8,11 +8,6 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-# # erro:
-# @app.route('/')
-# def sobre():
-#     return render_template('sobre.html')
-
 # especifica e roda apenas se for app na main
 if __name__ == '__main__':
     app.run(debug=True)

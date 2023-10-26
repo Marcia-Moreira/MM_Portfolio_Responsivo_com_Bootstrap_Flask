@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <!-- Abaixo verificar do que se trata: Campatibilidade de Navegador??? -->
@@ -16,6 +17,7 @@
     <!-- Titulo da Aba da Página -->
     <title>Marcia Moreira</title>
 </head>
+
 <body>
     <!-- Responsividade Menu Hamburger -->
     <!-- Pega Hamburgue no Icons BootsTrap -->
@@ -23,6 +25,7 @@
 
     <!-- Menu Lateral -> Tag Responsiva: ASIDE -->
     <aside id="header">
+        <!-- RECOLHIDO LINKS REDE SOCIAL -->
         <section class="profile">
             <img src="../static/img/Marcia_Moreira.png" alt="Foto da Marcia Moreira">
             <h1>Marcia Moreira</h1>
@@ -47,52 +50,167 @@
                 </a>
             </div>
         </section>
+        <!-- RECOLHIDO MENU NAV BAR LATERAL -->
         <!-- Section Nav Bar -> Vamos usar uma padrão do BootsTrap -->
         <nav id="navbar" class="nav-menu">
             <!-- bootstrap/Docs/Componentes/Navs & Tabs -->
             <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-gear"></i>Inicio</a>
+                    <a class="nav-link active" aria-current="page" 
+                    href="#inicio"><i class="bi bi-house-gear"></i>Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <!-- ERRO no Link da Página sobre.html -->
-                    <a class="nav-link" target="_blank" href="sobre.html"><i class="bi bi-person-vcard"></i>Sobre</a>
+                    <!-- ANCORAGEM: No # usar a palavra ID de onde se quer chegar!!!-->
+                    <a class="nav-link" href="#sobre"><i class="bi bi-person-vcard"></i>Sobre</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-list-check"></i>Skills</a>
+                    <a class="nav-link" href="#skills"><i class="bi bi-list-check"></i>Skills</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-file-earmark-code"></i>Currículo</a>
+                    <a class="nav-link" href="#curriculo"><i class="bi bi-file-earmark-code"></i>Currículo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-collection-play"></i>Portifólio</a>
+                    <a class="nav-link" href="#portifolio"><i class="bi bi-collection-play"></i>Portifólio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-envelope-at"></i>Contato</a>
-                </li>           
-              </ul>
+                    <a class="nav-link" href="#contato"><i class="bi bi-envelope-at"></i>Contato</a>
+                </li>
+            </ul>
         </nav>
     </aside>
 
     <main id="main">
         <!-- row-> será uma linha, tirar a margem e o padding, logo 100% presa nas laterais -->
+        <!-- RECOLHIDO PÁGINA PRINCIPAL 01 -->
         <section id="inicio" class="row m-0 p-0">
             <!-- Colunas na row -->
             <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
-                <h2 class="text-rgb(19, 142, 135) text-shadow">Marcia Moreira</h2>
-                <span id="sbtitle" class="text-rgb(19, 142, 135) text-shadow"> Desenvolvedora Web </span>
-                <span id="sbtitle" class="text-rgb(19, 142, 135) text-shadow"> - Front & Back End - </span>
-
-
+                <h2 class="text-rgb(19, 142, 135) text-shadow row mt-3 mb-3">Marcia Moreira</h2>
+                <span id="sbtitle" class="text-rgb(19, 142, 135) text-shadow row mt-3 mb-3"> Desenvolvedora Web </span>
+                <span id="sbtitle" class="text-rgb(19, 142, 135) text-shadow row mt-3 mb-3"> - Front & Back End - </span>
             </div>
-
             <div class=".col-md-7 d-flex justify-content-end align-items-end">
                 <div id="arraste" class="d-flex align-items-center">
                     <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
-                    <a href="">Arraste para saber mais</a>
+                    <a href="#sobre">Arraste para saber mais</a>
                 </div>
             </div>
         </section>
+
+        <section id="sobre" class="container mt-5">
+            <div class="row w-100">
+                <div class="col-md-12">
+                    <!-- RECOLHIDO PÁGINA SOBRE 02 -->
+                    <h2 class="pt-3">Sobre</h2>
+                    <p>
+                        Olá,<br>
+                        Eu sou a Marcia Moreira, carioca, residente na Zona Oeste de São Paulo a 5 anos, relato a seguir
+                        minha trajetória profissional anterior e a atual transição de carreira:
+                        <br>
+                        Graduada em Administração de Empresas e Pós Graduada em Especialização em Negociação e Vendas em
+                        2021, para me especializar na atuação na área Comercial e de Vendas onde venho me desenvolvendo
+                        à 5 anos (exatamente quando mudei para São Paulo). Atuei nos segmentos do ramo tecnológico,
+                        imobiliário, atendimento ao cliente, varejo, consórcio de bens e serviços, administração de
+                        carteira B2B e B2C, etc. Elaborando estratégias de vendas, desenvolvimento de equipes,
+                        prospecções de clientes, acompanhamento de metas e redefinição de metas.
+                        <br>
+                        Minha carreira anterior, no Rio de Janeiro, foi solidificada na coordenação de Gestão de Pessoas
+                        (DP e RH) e suas diversidades, onde desenvolvi ampla facilidade de comunicação interpessoal,
+                        empatia, intermediação, perfil amigável, confiável e acessível. Referenciada nas Avaliações de
+                        Desempenho como proativa e direcionada ao pensamento estratégico e analítico, ao longo de quase
+                        20 anos de atuação com equipes de empresas de diferentes segmentos (engenharia, médico,
+                        financeiro, serviços, entretenimento e do petróleo e gás).
+                        <br>
+                        Habituada ao modelo de trabalho Remoto / Home Office. Atendimento online, interno e visita
+                        externa aos clientes e fornecedores. Conhecimento técnico de ferramentas de vendas, Pacote
+                        Office, CRMs e demais correlatos das áreas de atuação em que já passei.
+                        <br>
+                        Cursos de capacitação e desenvolvimento em Tecnologia da Informação e Comunicação, Desenvolvedor
+                        de Sistemas, Idiomas, Vendas, Marketing Digital, Negociação, Objeções de Vendas, Vendas B2B,
+                        Jornada do Consumidor, e muito mais…
+                        <br>
+                        <!-- Video 05 parei no minuto 8 -->
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <!-- RECOLHIDO FOTO PAGINA SOBRE 02 -->
+                <div class="col-md-4">
+                    <!-- Class img fluid adapta a foto 4 colunas -->
+                    <img class="img-fluid shadow-lg" src="../static/img/Marcia_Moreira_Perfil_menor.jpg"
+                        alt="Foto da Marcia Pefil">
+                </div>
+            </div>
+
+            <!-- RECOLHIDO TEXTO E TABELA LATERAL DA FOTO PAGINA SOBRE 02 -->
+            <div class="col-md-8">
+                <!-- RECOLHIDO 1º TEXTO LATERAL DA FOTO PAGINA SOBRE 02 -->
+                <h3 class="row mt-3 mb-3">Desenvolvedora Web</h3>
+                <p>Recentemente passei por uma transição de carreira e atualmente desenvolvo freelancer autônomo
+                    focados em Desenvolvimento fullstack, trabalhando principalmente com JavaScript no front-end e no
+                    back-end, Python, Html, CSS e banco de dados SQL Server e My SQL.</p>
+                    <!-- RECOLHIDO TABELA LATERAL DA FOTO PAGINA SOBRE 02 -->
+                <!-- Para dividir em duas colunas: -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Lista do Bootstrap -> List / tipo Flush -->
+                        <!-- Teremos Links -->
+                        <ul class="list-group list-group-flush fs-5">
+                            <li class="list-group-item">
+                                <!-- Excluir Aniversário e Idade -->
+                                <!-- Pensar incluir experiências passadas que podem ser -->
+                                Niver: <span class="fw-lighter"> 01 de junho de 1981 </span>
+                            </li>
+                            <li class="list-group-item">
+                                 <!-- Excluir Aniversário e Idade -->
+                                Idade: <span class="fw-lighter"> 42 anos </span>
+                            </li>
+                            <li class="list-group-item">
+                                Cidade: <span class="fw-lighter"> Vila Madalena - Zona Oeste </span>
+                            </li>
+                            <li class="list-group-item">
+                                Estado: <span class="fw-lighter"> São Paulo </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Lista do Bootstrap -> List / tipo Flush -->
+                        <ul class="list-group list-group-flush fs-5">
+                            <li class="list-group-item">
+                                Hobbys: <span class="fw-lighter"> Corrida de Rua / Dança de Salão / Artes Manuais </span>
+                            </li>
+                            <li class="list-group-item">
+                                Site: <span class="fw-lighter"> <a href="https://thicode.netlify.app/" target="_blank" class="fw-lighter text-decoration-none link-green">links.thicode</a> </span>
+                            </li>
+                            <li class="list-group-item">
+                                Trabalho: <span class="fw-lighter"> <a href="https://bluedtech.com.br" target="_blank" class="fw-lighter text-decoration-none link-green">Blue EdTech</a> </span>
+                            </li>
+                            <li class="list-group-item">
+                                <!-- Excluir?  -->
+                                Experiência: <span class="fw-lighter"> + 1 ano </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- RECOLHIDO 2º TEXTO LATERAL DA FOTO PAGINA SOBRE 02 -->
+                <div class="row mt-3 mb-3">
+                    <p>Testando COLOCAR MAIS TEXTO SOBRE MIM<br>
+                        Testando COLOCAR MAIS TEXTO SOBRE MIM<br>
+                        Testando COLOCAR MAIS TEXTO SOBRE MIM<br>
+                        Testando COLOCAR MAIS TEXTO SOBRE MIM<br>
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
     </main>
 
 
@@ -125,4 +243,5 @@
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../static/script.js"></script>
 </body>
+
 </html>
