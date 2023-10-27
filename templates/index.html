@@ -56,8 +56,8 @@
             <!-- bootstrap/Docs/Componentes/Navs & Tabs -->
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" 
-                    href="#inicio"><i class="bi bi-house-gear"></i>Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="#inicio"><i
+                            class="bi bi-house-gear"></i>Inicio</a>
                 </li>
                 <li class="nav-item">
                     <!-- ANCORAGEM: No # usar a palavra ID de onde se quer chegar!!!-->
@@ -82,13 +82,42 @@
     <main id="main">
         <!-- row-> será uma linha, tirar a margem e o padding, logo 100% presa nas laterais -->
         <!-- RECOLHIDO PÁGINA PRINCIPAL 01 -->
-        <section id="inicio" class="row m-0 p-0">
+        <section id="inicio" class="inicio row m-0 p-0">
             <!-- Colunas na row -->
             <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
-                <h2 class="text-rgb(19, 142, 135) text-shadow row mt-3 mb-3">Marcia Moreira</h2>
-                <span id="sbtitle" class="text-rgb(19, 142, 135) text-shadow row mt-3 mb-3"> Desenvolvedora Web </span>
-                <span id="sbtitle" class="text-rgb(19, 142, 135) text-shadow row mt-3 mb-3"> - Front & Back End - </span>
+                <h2 class="text-rgb(19, 142, 135) text-shadow row mt-2 mb-2">Marcia Moreira</h2>
+                <span id="subtitle" class="text-rgb(19, 142, 135) text-shadow row mt-2 mb-2"> Desenvolvedora Web </span>
+                <span id="subtitle" class="text-rgb(19, 142, 135) text-shadow row mt-2 mb-2"> - Front & Back End -
+                </span>
             </div>
+            <div class="social-links mt-3 text-center">
+                <!-- <a href="">GitHub</a> -->
+                <!-- Para abrir o link em nova página: target="_blank" -->
+                <a target="_blank" href="https://github.com/Marcia-Moreira">
+                    <i class="bi bi-github"></i>
+                </a>
+                <!-- <a href="">LinkedIn</a> -->
+                <a target="_blank" href="https://www.linkedin.com/in/marciamoreiramm">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <!-- <a href="">Instagram</a> -->
+                <a target="_blank" href="https://www.instagram.com/marcia_moreira_dev/">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <!-- <a href="">WhatsApp</a> -->
+                <a target="_blank" href="https://wa.me/5511977219430">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
+            <div class="social-links mt-3 text-center">
+                <!-- <a href="">Portifólio</a> -->
+                <!-- rever se deixa -blank ou não -->
+                <a target="_blank" href="#portifolio">
+                    <i class="bi bi-collection-play"></i>
+                </a>
+                <p class="mt-2 text-shadow"> [ Meu Portifólio ]</p>
+            </div>
+
             <div class=".col-md-7 d-flex justify-content-end align-items-end">
                 <div id="arraste" class="d-flex align-items-center">
                     <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
@@ -97,101 +126,112 @@
             </div>
         </section>
 
-        <section id="sobre" class="container mt-5">
+        <!-- RECOLHIDO PÁGINA SOBRE 02 -->
+        <section class="container mt-5" id='sobre'>
             <div class="row w-100">
                 <div class="col-md-12">
-                    <!-- RECOLHIDO PÁGINA SOBRE 02 -->
+                    <!-- RECOLHIDO TEXTO PÁGINA SOBRE 02 -->
                     <h2 class="pt-3">Sobre</h2>
                     <p>
-                        Olá,<br>
-                        Eu sou a Marcia Moreira, carioca, residente na Zona Oeste de São Paulo a 5 anos, relato a seguir
-                        minha trajetória profissional anterior e a atual transição de carreira:
+                        Olá,
+                        <br><br>
+                        Aqui é a Marcia, uma carioca, residente na Zona Oeste de São Paulo a 6 anos, atuo com
+                        Desenvolvimento Web - front e back end, estudante frequente de tecnologias e linguagens,
+                        curiosa, inquieta e criativa. Trago na bagagem experiências diversas de formações anteriores, e
+                        também devido a minha transição de carreira, e que agregam muito na criação e gestão dos
+                        projetos e também no relacionamento com meus clientes atualmente.
+                        <br><br>
+                        Graduada em Administração de Empresas e Pós Graduada em Negociação e Vendas, e atualmente
+                        cursando mais uma Pós Graduação em Engenharia de Software.
+                        <br><br>
+                        Também me desenvolvo diariamente, em paralelo à pós, realizando cursos práticos, geralmente
+                        online, para melhorar o meu desempenho e dos meus projetos.
+                        <br><br>
+                        Realizo trabalhos autônomos Freelancer, criando páginas web ou software para comercio ou
+                        empreendedores também autônomos. Alguns projetos são desenvolvidos de forma independênte e
+                        outros com parcerias, conforme poderão visualizar nos links do meu GitHub que também possuem
+                        muitos "challangers" de cursos que participei.
+                        <br><br>
+                        - criação de landing page <br>
+                        - manutenção e melhoria de sites<br>
+                        - manutenção de banco de dados<br>
+                        <br><br>
+                        Anteriormente atuei na área Comercial e de Vendas, atendimento ao cliente e na coordenação de
+                        Gestão de Pessoas (RH / DP).
+                        <br><br>
+                        bootcamps<br>
+                        MVC (Model, Controller e View)<br>
                         <br>
-                        Graduada em Administração de Empresas e Pós Graduada em Especialização em Negociação e Vendas em
-                        2021, para me especializar na atuação na área Comercial e de Vendas onde venho me desenvolvendo
-                        à 5 anos (exatamente quando mudei para São Paulo). Atuei nos segmentos do ramo tecnológico,
-                        imobiliário, atendimento ao cliente, varejo, consórcio de bens e serviços, administração de
-                        carteira B2B e B2C, etc. Elaborando estratégias de vendas, desenvolvimento de equipes,
-                        prospecções de clientes, acompanhamento de metas e redefinição de metas.
-                        <br>
-                        Minha carreira anterior, no Rio de Janeiro, foi solidificada na coordenação de Gestão de Pessoas
-                        (DP e RH) e suas diversidades, onde desenvolvi ampla facilidade de comunicação interpessoal,
-                        empatia, intermediação, perfil amigável, confiável e acessível. Referenciada nas Avaliações de
-                        Desempenho como proativa e direcionada ao pensamento estratégico e analítico, ao longo de quase
-                        20 anos de atuação com equipes de empresas de diferentes segmentos (engenharia, médico,
-                        financeiro, serviços, entretenimento e do petróleo e gás).
-                        <br>
-                        Habituada ao modelo de trabalho Remoto / Home Office. Atendimento online, interno e visita
-                        externa aos clientes e fornecedores. Conhecimento técnico de ferramentas de vendas, Pacote
-                        Office, CRMs e demais correlatos das áreas de atuação em que já passei.
-                        <br>
-                        Cursos de capacitação e desenvolvimento em Tecnologia da Informação e Comunicação, Desenvolvedor
-                        de Sistemas, Idiomas, Vendas, Marketing Digital, Negociação, Objeções de Vendas, Vendas B2B,
-                        Jornada do Consumidor, e muito mais…
-                        <br>
-                        <!-- Video 05 parei no minuto 8 -->
                     </p>
                 </div>
             </div>
 
-            <div class="row mt-4">
+            <div class="row mt-3">
                 <!-- RECOLHIDO FOTO PAGINA SOBRE 02 -->
                 <div class="col-md-4">
                     <!-- Class img fluid adapta a foto 4 colunas -->
                     <img class="img-fluid shadow-lg" src="../static/img/Marcia_Moreira_Perfil_menor.jpg"
                         alt="Foto da Marcia Pefil">
                 </div>
-            </div>
 
-            <!-- RECOLHIDO TEXTO E TABELA LATERAL DA FOTO PAGINA SOBRE 02 -->
-            <div class="col-md-8">
-                <!-- RECOLHIDO 1º TEXTO LATERAL DA FOTO PAGINA SOBRE 02 -->
-                <h3 class="row mt-3 mb-3">Desenvolvedora Web</h3>
-                <p>Recentemente passei por uma transição de carreira e atualmente desenvolvo freelancer autônomo
-                    focados em Desenvolvimento fullstack, trabalhando principalmente com JavaScript no front-end e no
-                    back-end, Python, Html, CSS e banco de dados SQL Server e My SQL.</p>
+                <!-- RECOLHIDO TEXTO E TABELA LATERAL DA FOTO PAGINA SOBRE 02 -->
+                <div class="col-md-8">
+                    <!-- RECOLHIDO 1º TEXTO LATERAL DA FOTO PAGINA SOBRE 02 -->
+                    <h2 class="row mt-3 mb-3">Desenvolvedora Web</h2>
+                    <p>
+                        Recentemente passei por uma transição de carreira e atualmente desenvolvo freelancer autônomo
+                        focados em Desenvolvimento fullstack, trabalhando principalmente com JavaScript no front-end e
+                        no back-end, Python, Html, CSS e banco de dados SQL Server e My SQL.
+                    </p>
                     <!-- RECOLHIDO TABELA LATERAL DA FOTO PAGINA SOBRE 02 -->
-                <!-- Para dividir em duas colunas: -->
-                <div class="row">
-                    <div class="col-md-6">
-                        <!-- Lista do Bootstrap -> List / tipo Flush -->
-                        <!-- Teremos Links -->
-                        <ul class="list-group list-group-flush fs-5">
-                            <li class="list-group-item">
-                                <!-- Excluir Aniversário e Idade -->
-                                <!-- Pensar incluir experiências passadas que podem ser -->
-                                Niver: <span class="fw-lighter"> 01 de junho de 1981 </span>
-                            </li>
-                            <li class="list-group-item">
-                                 <!-- Excluir Aniversário e Idade -->
-                                Idade: <span class="fw-lighter"> 42 anos </span>
-                            </li>
-                            <li class="list-group-item">
-                                Cidade: <span class="fw-lighter"> Vila Madalena - Zona Oeste </span>
-                            </li>
-                            <li class="list-group-item">
-                                Estado: <span class="fw-lighter"> São Paulo </span>
-                            </li>
-                        </ul>
+                    <!-- Para dividir em duas colunas: -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- Lista do Bootstrap -> List / tipo Flush -->
+                            <!-- Teremos Links -->
+                            <ul class="list-group list-group-flush fs-7">
+                                <li class="list-group-item">
+                                    <!-- Excluir Aniversário e Idade -->
+                                    <!-- Pensar incluir experiências passadas que podem ser -->
+                                    Niver: <span class="fw-lighter"> 01 de junho </span>
+                                </li>
+                                <li class="list-group-item">
+                                    <!-- Excluir Aniversário e Idade -->
+                                    Idade: <span class="fw-lighter"> 42 anos </span>
+                                </li>
+                                <li class="list-group-item">
+                                    Cidade: <span class="fw-lighter"> Vila Madalena - Zona Oeste </span>
+                                </li>
+                                <li class="list-group-item">
+                                    Estado: <span class="fw-lighter"> São Paulo </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Lista do Bootstrap -> List / tipo Flush -->
+                            <ul class="list-group list-group-flush fs-7">
+                                <li class="list-group-item">
+                                    Hobbys: <span class="fw-lighter"> Corrida de Rua / Dança de Salão / Artes Manuais
+                                    </span>
+                                </li>
+                                <li class="list-group-item">
+                                    Site: <span class="fw-lighter"> <a href="https://thicode.netlify.app/"
+                                            target="_blank"
+                                            class="fw-lighter text-decoration-none link-green">links.thicode</a> </span>
+                                </li>
+                                <li class="list-group-item">
+                                    Trabalho: <span class="fw-lighter"> <a href="https://bluedtech.com.br"
+                                            target="_blank" class="fw-lighter text-decoration-none link-green">Blue
+                                            EdTech</a> </span>
+                                </li>
+                                <li class="list-group-item">
+                                    <!-- Excluir?  -->
+                                    Experiência: <span class="fw-lighter"> + 1 ano </span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <!-- Lista do Bootstrap -> List / tipo Flush -->
-                        <ul class="list-group list-group-flush fs-5">
-                            <li class="list-group-item">
-                                Hobbys: <span class="fw-lighter"> Corrida de Rua / Dança de Salão / Artes Manuais </span>
-                            </li>
-                            <li class="list-group-item">
-                                Site: <span class="fw-lighter"> <a href="https://thicode.netlify.app/" target="_blank" class="fw-lighter text-decoration-none link-green">links.thicode</a> </span>
-                            </li>
-                            <li class="list-group-item">
-                                Trabalho: <span class="fw-lighter"> <a href="https://bluedtech.com.br" target="_blank" class="fw-lighter text-decoration-none link-green">Blue EdTech</a> </span>
-                            </li>
-                            <li class="list-group-item">
-                                <!-- Excluir?  -->
-                                Experiência: <span class="fw-lighter"> + 1 ano </span>
-                            </li>
-                        </ul>
-                    </div>
+
                 </div>
                 <!-- RECOLHIDO 2º TEXTO LATERAL DA FOTO PAGINA SOBRE 02 -->
                 <div class="row mt-3 mb-3">
@@ -201,44 +241,143 @@
                         Testando COLOCAR MAIS TEXTO SOBRE MIM<br>
                     </p>
                 </div>
-
             </div>
+        </section>
+        <!-- RECOLHIDO PÁGINA SKILLS 03 (HABILIDADES NO VIDEO) -->
+        <section class="mt-3 section-bgMM" id="skills">
+            <!-- section-brMM backGround Padrão intercalada -->
+            <div class="container pb-5">
+                <h2 class="pt-3">Skills</h2>
+                <p>
+                    bla bla bla bla bla bla BLA BLA BLA BLA BLA BLA<br>
+                    bla bla bla bla bla BLA BLA BLA BLA BLA BLA BLA <br>
+                </p>
+                <!-- RECOLHIDO BARRA DE PORCENTAGENS CURSOS -->
+                <!-- Hard Skills -->
+                <div class="row">
+                    <h5 class="mt-3 text-shadow">Hard Skills</h5>
+                    <!-- RECOLHIDO BARRA DE PORCENTAGENS CURSOS - COLUNA 01 -->
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">HTML <i class="bi bi-filetype-html"></i> </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95 %</div>
+                        </div>
+                        <p class="mt-3 mb-0">CSS <i class="bi bi-filetype-css"></i> </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%">80 %</div>
+                        </div>
+                        <p class="mt-3 mb-0">JavaScript <i class="bi bi-filetype-js"></i> </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="72"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 72%">72%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Python <i class="bi bi-filetype-py"></i> </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="55"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 55%">55%</div>
+                        </div>
+                        <p class="mt-3 mb-0">SQL (Banco de Dados) <i class="bi bi-database-check"></i> </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="79"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 79%">79%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Git e GitHub <i class="bi bi-github"></i> </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 85%">85%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Deploy <i class="bi bi-rocket-takeoff"></i> </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 75%">75%</div>
+                        </div>
+                    </div>
+                    <!-- RECOLHIDO BARRA DE PORCENTAGENS CURSOS - COLUNA 02 -->
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">Bootstrap <i class="bi bi-bootstrap"></i> </p>
+                        </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 75%">75%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Flask </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="81"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 81%">81%</div>
+                        </div>
+                        <p class="mt-3 mb-0">NodeJs (Express) <i class="bi bi-hexagon"></i> </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="55"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 55%">55%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Spring </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="65"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 65%">65%</div>
+                        </div>
+                        <p class="mt-3 mb-0">C# <i class="bi bi-hash"></i> </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="83"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 83%">83%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Java <i class="bi bi-filetype-java"></i> </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="55"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 55%">55%</div>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Linha Quase Invisível: -->
+                <hr class='w-50 me-auto ms-auto pb-3'>
+
+                <!-- Soft Skills -->
+                <div class="row">
+                    <h5 class="mt-3 text-shadow">Soft Skills</h5>
+                    <!-- SOFT SKILL COLUNA 01 -->
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0"> Trabalho em Equipe </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95 %</div>
+                        </div>
+                        <p class="mt-3 mb-0"> Proatividade </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="98"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 98%">98 %</div>
+                        </div>
+                        <p class="mt-3 mb-0"> Orientação a Detalhes </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="91"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 91%">91 %</div>
+                        </div>
+                    </div>
+                    <!-- SOFT SKILL COLUNA 02 -->
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0"> Comunicação </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 85%">85 %</div>
+                        </div>
+                        <p class="mt-3 mb-0"> Empatia </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="81"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 81%">81 %</div>
+                        </div>
+                        <p class="mt-3 mb-0"> Comprometimento </p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="98"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 98%">98 %</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
-
-
-
-
     </main>
-
-
-    <!-- <h1>Hei! Vem me Conhecer...</h1> -->
-    <div class="skill">
-
-        <h2>Projetos Com: </h2>
-
-        <i class="bi bi-filetype-js"></i>
-        <p>JavaScript</p>
-
-        <i class="bi bi-filetype-py"></i>
-        <p>Python</p>
-
-        <i class="bi bi-filetype-java"></i>
-        <p>Java</p>
-
-        <p>Não achei <i class="icon-elixir"></i></p>
-        <p>C#</p>
-
-        <i class="bi bi-filetype-html"></i>
-        <p>HTML</p>
-
-        <i class="bi bi-filetype-css"></i>
-        <p>CSS</p>
-
-    </div>
-
 
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../static/script.js"></script>

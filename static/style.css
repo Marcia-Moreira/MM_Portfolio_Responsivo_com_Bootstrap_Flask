@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 /* =============================================================== */
+/* // BootsTrap - Sistema de Grid Padrão */
 /* Cores do Site */
 reverCoresSite {
     color:#fff;
+    background-color: rgb(227, 250, 249); /*REVER Fundo total da Tela e Tabela*/
+    background-color: rgb(237, 249, 249); /*Fundo total da Tela e Tabela*/
     color: rgb(87, 184, 179);
     color: rgb(19, 142, 135);
     color: rgb(50, 129, 125);
@@ -24,6 +27,7 @@ html, body {
     font-family: Ubuntu, Arial;
     color: rgb(19, 142, 135);
     /* Toda Pagina tenha: */
+    background-color: rgb(227, 250, 249); /*Fundo total da Tela e Tabela*/
     width: 100%;
     height: 100%;
 }
@@ -62,7 +66,8 @@ html, body {
     color: #fff;
 }
 /* Estilizar os ícones */
-#header .profile .social-links a{
+#header .profile .social-links a, 
+#main .inicio .social-links a {
     font-size: 1rem;
     background: rgb(87, 184, 179);
     color: #fff;
@@ -109,10 +114,6 @@ html, body {
 }
 /* Até aqui formatamos o menu */
 /* =============================================================== */
-/* Teste */
-.skill {
-    margin-left: 300px;
-}
 #main {
     /* Para que o main se sobressaia ao ASIDE */
     margin-left: 300px;
@@ -143,15 +144,11 @@ section#inicio div#arraste a {
     text-decoration: none;
     color: #fff;
 }
-#sbtitle {
-    font-size: 20px;
+#subtitle {
+    font-size: 30px;
 }
 i.menu-mobile {
     position: fixed;
-    color: #fff;
-    /* Troquei as cores do Hamburguer: */
-    /* color: rgb(19, 142, 135); */
-    /* background-color: rgb(87, 184, 179); */
     color: #fff;
     background-color: rgb(19, 142, 135);
     right: 1rem;
@@ -202,6 +199,7 @@ i.menu-mobile {
 /* Mudar cor dos itens da tabela */
 .list-group-item {
     color: rgb(19, 142, 135);
+    background-color: rgb(227, 250, 249); /*Fundo total da Tela e Tabela*/
 }
 .list-group-item a {
     color: rgb(87, 184, 179);
@@ -222,9 +220,29 @@ i.menu-mobile {
 }
 /* =============================================================== */
 
+/* Pagina Skills */
+.section-bgMM {
+    /* background-color: rgb(87, 184, 179); */
+    background-image: url("./img/bannerPortifolio.jpeg");
+    background-repeat: repeat-y;
+    /* background-repeat: repeat-y; deveria repetir vertical */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /*vh Ocupa 100% da tela*/
+}
 
+.progress {
+    background-color: rgb(87, 184, 179);
+    box-shadow: inset 0 0 .3rem rgb(19, 142, 135);
+}
 
-
+.progress-bar {
+    color: #fff;
+    background-color: rgb(19, 142, 135);
+    box-shadow: inset 0 0 .3rem rgb(87, 184, 179);
+}
 
 
 
